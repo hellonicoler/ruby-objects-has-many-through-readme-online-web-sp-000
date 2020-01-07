@@ -19,7 +19,7 @@ end
 
 def meals
   Meal.all.select do |meal| meal.customer == self
-ends
+end
 end
   
 def waiters
